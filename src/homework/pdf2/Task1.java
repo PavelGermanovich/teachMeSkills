@@ -8,7 +8,7 @@ public class Task1 {
      */
     public static void main(String[] args) {
         int daysNumber = 7;
-        int kmPerDay = 10;
+        double kmPerDay = 10;
         double distance = kmPerDay;
 
         for (int i = 1; i < daysNumber; i++) {
