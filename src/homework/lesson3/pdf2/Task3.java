@@ -1,4 +1,4 @@
-package homework.pdf2;
+package homework.lesson3.pdf2;
 
 public class Task3 {
     /**

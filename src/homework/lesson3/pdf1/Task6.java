@@ -1,4 +1,4 @@
-package homework.pdf1;
+package homework.lesson3.pdf1;
 
 import java.util.Scanner;
 

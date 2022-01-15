@@ -1,4 +1,4 @@
-package homework.sortingArray;
+package homework.lesson3.sortingArray;
 
 import java.util.Arrays;
 
