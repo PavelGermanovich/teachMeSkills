@@ -1,4 +1,4 @@
-package homework.lesson5.dz3;
+package homework.lesson5.dz3.oneDimension;
 
 public class Task2 {
     /**

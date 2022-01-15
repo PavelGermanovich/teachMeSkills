@@ -1,6 +1,5 @@
 package homework.lesson5.dz1;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Computer {
