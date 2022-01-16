@@ -14,7 +14,7 @@ public class Game {
         showTheMap(matrix);
         boolean isWin = false;
         int move = 1;
-        while (!isWin) {
+        while (!isWin && move != 10) {
             if (move % 2 != 0) {
                 System.out.println("Игрок 1 (Крестики) введите координаты (строку и столбец, отсчет с единицы):");
                 boolean isCoordinatesCorrect = false;
@@ -50,6 +50,9 @@ public class Game {
             }
             move++;
             showTheMap(matrix);
+        }
+        if (move == 10 && !isWin) {
+            System.out.println("Ничья!");
         }
     }
 
