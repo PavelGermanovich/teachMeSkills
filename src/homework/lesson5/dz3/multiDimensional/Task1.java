@@ -9,7 +9,6 @@ public class Task1 {
      * случайными числами в диапазоне от 0 до 50. И выводим на консоль(в виде
      * матрицы).
      */
-
     public static void main(String[] args) {
         System.out.println("Input size of 2 dimensional array");
         Scanner scanner = new Scanner(System.in);

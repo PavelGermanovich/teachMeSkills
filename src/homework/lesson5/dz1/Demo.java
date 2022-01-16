@@ -10,5 +10,7 @@ public class Demo {
         myPc.showComputerInfo();
 
         myPc.turnOn();
+        myPc.turnOn();
+
     }
 }

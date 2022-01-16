@@ -21,8 +21,8 @@ public class Computer {
         ram.showRamInfo();
         cpu.showCPUInfo();
         hdd.showHddInfo();
-        ;
         System.out.println("Limit of switching Off&On is " + limitOfTurningOn);
+        System.out.println("Is computer burn? " + isComputerBurned);
     }
 
     public void turnOn() {
