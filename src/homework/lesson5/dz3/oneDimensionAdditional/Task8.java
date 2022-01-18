@@ -12,6 +12,15 @@ public class Task8 {
         int[] array = Helper.getArrayWithRandomNumber();
         System.out.println(Arrays.toString(array));
         Arrays.sort(array);
-        System.out.println("Number is " + array[array.length - 2]);
+        int max = array[array.length - 1];
+        int last = array[array.length - 1];
+
+        for (int i = array.length - 2; i >= 0; i--) {
+            if (max > array[i]) {
+                last = array[i];
+                break;
+            }
+        }
+        System.out.println("ЧИсло перед максимальным = " + last);
     }
 }

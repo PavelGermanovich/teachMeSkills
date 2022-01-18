@@ -1,4 +1,4 @@
-package lesson3;
+package sessions.lesson3;
 
 public class ArrayEx {
 
