@@ -4,7 +4,7 @@ public class Demo {
     public static void main(String[] args) {
         Car car1 = new Car("Audi", 100, 23000);
         Car car2 = new Car();
-        car2.setMark("Mersedes");
+        car2.setMark("Mercedes");
         Car car3 = new Car("BMW", 120, 24000);
 
         try {
