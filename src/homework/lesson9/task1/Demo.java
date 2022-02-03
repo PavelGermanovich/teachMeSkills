@@ -11,7 +11,7 @@ public class Demo {
         Scanner scanner = new Scanner(System.in);
         StringUtil stringUtil = new StringUtil();
         System.out.println("Input String for which substring operation will be made");
-        String stringActual = scanner.next();
+        String stringActual = stringUtil.getInputStringForSubstring();
         System.out.println("Input first char for substring");
         char charFirstIndex = stringUtil.getCharValidated(stringActual);
         System.out.println("Input last char for substring");

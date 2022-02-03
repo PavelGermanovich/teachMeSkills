@@ -14,6 +14,16 @@ public class StringUtil {
         }
     }
 
+
+    public String getInputStringForSubstring() {
+        String stringActual = scanner.next();
+        if (stringActual.length() < 2) {
+            System.out.println("Length of the input string should be at least 2! Please correct");
+            stringActual = getInputStringForSubstring();
+        }
+        return stringActual;
+    }
+
     public char getCharLengthValidated() {
         char result = ' ';
         try {
