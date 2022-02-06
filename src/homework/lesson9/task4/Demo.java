@@ -35,14 +35,14 @@ public class Demo {
                 }
             }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
             System.exit(0);
         }
 
         try {
             fileUtil.writeToFileString(pathToResultFile, resultToWrite.toString());
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
             System.exit(0);
         }
 
