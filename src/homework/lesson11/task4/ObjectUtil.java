@@ -1,7 +1,5 @@
 package homework.lesson11.task4;
 
-import homework.lesson7.task2.Clothes.Person;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;

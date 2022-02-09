@@ -1,4 +1,4 @@
-package homework.lesson6.transport;
+package homework.lesson12.transport;
 
 public class Car extends GroundTransport {
     private String carcase;

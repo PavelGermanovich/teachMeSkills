@@ -28,5 +28,6 @@ public class Demo {
         militaryAirTransport.shoot();
         militaryAirTransport.shoot();
         militaryAirTransport.ejectFromPlane();
+
     }
 }
