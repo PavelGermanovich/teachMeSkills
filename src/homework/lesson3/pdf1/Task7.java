@@ -27,8 +27,8 @@ public class Task7 {
                 return "программист";
             } else if (num % 10 == 0) {
                 return "программистов";
-            } else if (numString.contains("5") || numString.contains("6") || numString.contains("7")
-                    || numString.contains("8") || numString.contains("9")) {
+            } else if (numString.endsWith("5") || numString.endsWith("6") || numString.endsWith("7")
+                    || numString.endsWith("8") || numString.endsWith("9")) {
                 return "программистов";
             } else if (numString.length() > 1 && numString.charAt(numString.length() - 2) == '1') {
                 return "программистов";
