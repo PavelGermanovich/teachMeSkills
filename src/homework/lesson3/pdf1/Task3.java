@@ -9,7 +9,7 @@ public class Task3 {
      */
     public static void main(String[] args) {
         int var = new Scanner(System.in).nextInt();
-        var = var > 0 ? var += 1
+        var = var > 0 ? var + 1
                 : var == 0 ? 10
                 : var - 2;
         System.out.println("Полученное число = " + var);

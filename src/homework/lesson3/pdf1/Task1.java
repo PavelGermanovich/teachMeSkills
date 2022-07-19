@@ -21,11 +21,12 @@ public class Task1 {
     }
 
     public static String getNumberOfDigitsString(int n) {
+        n = Math.abs(n);
         int length = String.valueOf(n).length();
         switch (length) {
             case 1: return "однозначное";
             case 2: return "двухзначное";
-            default: return "трехзначное";
+            default: return "трехзначное и более";
         }
     }
 }
