@@ -22,12 +22,15 @@ public class Task7 {
 
     public static String getRussianNameAccordingToTheNumber(int num) {
         String numString = String.valueOf(num);
-        if (!numString.contains("11")) {
-            if (num == 1 || num % 10 == 1) {
+        if (!numString.endsWith("11")) {
+            if (num % 10 == 1) {
                 return "программист";
             }
+        } else {
+            return "программистов";
         }
-        if (num == 0 || num % 10 == 0) {
+
+        if (num % 10 == 0) {
             return "программистов";
         }
 
