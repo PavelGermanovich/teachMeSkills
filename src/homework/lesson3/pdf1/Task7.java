@@ -25,27 +25,24 @@ public class Task7 {
         if (!numString.endsWith("11")) {
             if (num % 10 == 1) {
                 return "программист";
+            } else if (num % 10 == 0) {
+                return "программистов";
+            } else if (numString.contains("5") || numString.contains("6") || numString.contains("7")
+                    || numString.contains("8") || numString.contains("9")) {
+                return "программистов";
+            } else if (numString.length() > 1 && numString.charAt(numString.length() - 2) == '1') {
+                return "программистов";
+            } else {
+                return "программиста";
             }
+
         } else {
             return "программистов";
-        }
-
-        if (num % 10 == 0) {
-            return "программистов";
-        }
-
-        if (numString.contains("5") || numString.contains("6") || numString.contains("7")
-                || numString.contains("8") || numString.contains("9")) {
-            return "программистов";
-        } else if (numString.length() > 1 && numString.charAt(numString.length() - 2) == '1') {
-            return "программистов";
-        } else {
-            return "программиста";
         }
     }
 }
 
 
-    //программистов - 0, 5-20, 25-30
-    //программиста - 2-4, 22-24
-    //программист - 1, 21. 101, 121 +++
+//программистов - 0, 5-20, 25-30
+//программиста - 2-4, 22-24
+//программист - 1, 21. 101, 121 +++
